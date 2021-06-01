@@ -1,0 +1,2242 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_83ed200440f344d79e191a164cac036a {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_83ed200440f344d79e191a164cac036a" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_83ed200440f344d79e191a164cac036a = L.map(
+                                  'map_83ed200440f344d79e191a164cac036a',
+                                  {center: [-22.9839557,-43.2022163],
+                                  zoom: 13.2,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_74277c3788eb45bf8b53474a0bd67b6f = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+        
+    
+            var circle_marker_0ea30d9a00e942cfa6995e663fe0659d = L.circleMarker(
+                [-22.98645236424169,-43.233676371390786],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_7bef4a73414b4d21825f89761b534ba5 = L.popup({maxWidth: '300'});
+
+            
+                var html_4634959f3767489698a3b50895433ce6 = $('<div id="html_4634959f3767489698a3b50895433ce6" style="width: 100.0%; height: 100.0%;">Rua Timóteo da Costa, Leblon Cluster 2</div>')[0];
+                popup_7bef4a73414b4d21825f89761b534ba5.setContent(html_4634959f3767489698a3b50895433ce6);
+            
+
+            circle_marker_0ea30d9a00e942cfa6995e663fe0659d.bindPopup(popup_7bef4a73414b4d21825f89761b534ba5);
+
+            
+        
+    
+            var circle_marker_3f8f92064fec4926aa3a6dc6fdc8286e = L.circleMarker(
+                [-22.981458989088054,-43.233676371390786],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_1798ee72d4cb4c0da88743a5b72ec778 = L.popup({maxWidth: '300'});
+
+            
+                var html_909db8b37c734348ae2f186cf7f12cb0 = $('<div id="html_909db8b37c734348ae2f186cf7f12cb0" style="width: 100.0%; height: 100.0%;">Rua Marquês de São Vicente, Gávea Cluster 2</div>')[0];
+                popup_1798ee72d4cb4c0da88743a5b72ec778.setContent(html_909db8b37c734348ae2f186cf7f12cb0);
+            
+
+            circle_marker_3f8f92064fec4926aa3a6dc6fdc8286e.bindPopup(popup_1798ee72d4cb4c0da88743a5b72ec778);
+
+            
+        
+    
+            var circle_marker_a965963c338b4f95a60c8296bebaee79 = L.circleMarker(
+                [-22.976465427275564,-43.233676371390786],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_0234758c5e4d42f892447522d7eb61c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_722e5edc87be4ed68afd4f54cab8651c = $('<div id="html_722e5edc87be4ed68afd4f54cab8651c" style="width: 100.0%; height: 100.0%;">Rua João Borges, Gávea Cluster 0</div>')[0];
+                popup_0234758c5e4d42f892447522d7eb61c1.setContent(html_722e5edc87be4ed68afd4f54cab8651c);
+            
+
+            circle_marker_a965963c338b4f95a60c8296bebaee79.bindPopup(popup_0234758c5e4d42f892447522d7eb61c1);
+
+            
+        
+    
+            var circle_marker_652af81ba75f47c58e9bbb0845cfeabd = L.circleMarker(
+                [-22.966477743798674,-43.233676371390786],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_4fce5032732d4d928a6fe7ac9f2235ef = L.popup({maxWidth: '300'});
+
+            
+                var html_2cfc5492416644e8bccee7a5c57ab994 = $('<div id="html_2cfc5492416644e8bccee7a5c57ab994" style="width: 100.0%; height: 100.0%;">Rua Pacheco Leão, Jardim Botânico Cluster 2</div>')[0];
+                popup_4fce5032732d4d928a6fe7ac9f2235ef.setContent(html_2cfc5492416644e8bccee7a5c57ab994);
+            
+
+            circle_marker_652af81ba75f47c58e9bbb0845cfeabd.bindPopup(popup_4fce5032732d4d928a6fe7ac9f2235ef);
+
+            
+        
+    
+            var circle_marker_c809c7078c7a435dae465fa1ec4724b5 = L.circleMarker(
+                [-22.98645236424169,-43.22828321629523],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_0003585cbbf848a3b8d36b4c9fb2a06c = L.popup({maxWidth: '300'});
+
+            
+                var html_fbf8a541ad1746f4bc81efc7e098e5a3 = $('<div id="html_fbf8a541ad1746f4bc81efc7e098e5a3" style="width: 100.0%; height: 100.0%;">Avenida Ataulfo de Paiva, Leblon Cluster 2</div>')[0];
+                popup_0003585cbbf848a3b8d36b4c9fb2a06c.setContent(html_fbf8a541ad1746f4bc81efc7e098e5a3);
+            
+
+            circle_marker_c809c7078c7a435dae465fa1ec4724b5.bindPopup(popup_0003585cbbf848a3b8d36b4c9fb2a06c);
+
+            
+        
+    
+            var circle_marker_8e6bdd4516ed4de3a416dbd72b21f339 = L.circleMarker(
+                [-22.981458989088054,-43.22828321629523],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_66064b09c308416f8a15a545cc26688c = L.popup({maxWidth: '300'});
+
+            
+                var html_88af99f437684b1c9f9338d9432ba5cd = $('<div id="html_88af99f437684b1c9f9338d9432ba5cd" style="width: 100.0%; height: 100.0%;">Rua Embaixador Graça Aranha, Leblon Cluster 2</div>')[0];
+                popup_66064b09c308416f8a15a545cc26688c.setContent(html_88af99f437684b1c9f9338d9432ba5cd);
+            
+
+            circle_marker_8e6bdd4516ed4de3a416dbd72b21f339.bindPopup(popup_66064b09c308416f8a15a545cc26688c);
+
+            
+        
+    
+            var circle_marker_bc0e21959a4f4eeeb0a4310344899281 = L.circleMarker(
+                [-22.976465427275564,-43.22828321629523],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_9724f20ac1124ef595dca966a6acd9b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_34c2550978bd433cba7e74eaaac51f4c = $('<div id="html_34c2550978bd433cba7e74eaaac51f4c" style="width: 100.0%; height: 100.0%;">Rua Marquês de São Vicente, Gávea Cluster 2</div>')[0];
+                popup_9724f20ac1124ef595dca966a6acd9b2.setContent(html_34c2550978bd433cba7e74eaaac51f4c);
+            
+
+            circle_marker_bc0e21959a4f4eeeb0a4310344899281.bindPopup(popup_9724f20ac1124ef595dca966a6acd9b2);
+
+            
+        
+    
+            var circle_marker_c47ca0bd9ddb4a2d9cabce8e50e2e4dd = L.circleMarker(
+                [-22.97147167883538,-43.22828321629523],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_c6e01c9ed83d4a2b89df0f1c86a8d436 = L.popup({maxWidth: '300'});
+
+            
+                var html_d64ebf2ce90e4fdba746990a271816aa = $('<div id="html_d64ebf2ce90e4fdba746990a271816aa" style="width: 100.0%; height: 100.0%;">Rua Major Rubenz Vaz, Gávea Cluster 0</div>')[0];
+                popup_c6e01c9ed83d4a2b89df0f1c86a8d436.setContent(html_d64ebf2ce90e4fdba746990a271816aa);
+            
+
+            circle_marker_c47ca0bd9ddb4a2d9cabce8e50e2e4dd.bindPopup(popup_c6e01c9ed83d4a2b89df0f1c86a8d436);
+
+            
+        
+    
+            var circle_marker_ee7a08215568430690a6d539a557d80c = L.circleMarker(
+                [-22.966477743798674,-43.22828321629523],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_d0ad823e52e34ddeb527f327363e53c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_2f2c16cc35c841ad90e08622ca68aebc = $('<div id="html_2f2c16cc35c841ad90e08622ca68aebc" style="width: 100.0%; height: 100.0%;">Aléia Arruda Câmara, Jardim Botânico Cluster 0</div>')[0];
+                popup_d0ad823e52e34ddeb527f327363e53c4.setContent(html_2f2c16cc35c841ad90e08622ca68aebc);
+            
+
+            circle_marker_ee7a08215568430690a6d539a557d80c.bindPopup(popup_d0ad823e52e34ddeb527f327363e53c4);
+
+            
+        
+    
+            var circle_marker_747177c5ed2c448bb0a071b93ab16fa4 = L.circleMarker(
+                [-22.961483622196603,-43.22828321629523],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_5c109a603c9b46c5b2a5e71ed2babbdd = L.popup({maxWidth: '300'});
+
+            
+                var html_bbba3f699f154aeb97819dfd1942ba3c = $('<div id="html_bbba3f699f154aeb97819dfd1942ba3c" style="width: 100.0%; height: 100.0%;">Rua Sara Vilela, Jardim Botânico Cluster 1</div>')[0];
+                popup_5c109a603c9b46c5b2a5e71ed2babbdd.setContent(html_bbba3f699f154aeb97819dfd1942ba3c);
+            
+
+            circle_marker_747177c5ed2c448bb0a071b93ab16fa4.bindPopup(popup_5c109a603c9b46c5b2a5e71ed2babbdd);
+
+            
+        
+    
+            var circle_marker_28312f9025a54d8d89d31ba62bb90b3d = L.circleMarker(
+                [-22.95149481942106,-43.22828321629523],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4df3ce",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4df3ce",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_a05ffebb42bd43f5902a0e81edb29715 = L.popup({maxWidth: '300'});
+
+            
+                var html_254bcc98dd9c492b870287d7e4183f88 = $('<div id="html_254bcc98dd9c492b870287d7e4183f88" style="width: 100.0%; height: 100.0%;">Estrada do Sumaré, Rio Comprido Cluster 3</div>')[0];
+                popup_a05ffebb42bd43f5902a0e81edb29715.setContent(html_254bcc98dd9c492b870287d7e4183f88);
+            
+
+            circle_marker_28312f9025a54d8d89d31ba62bb90b3d.bindPopup(popup_a05ffebb42bd43f5902a0e81edb29715);
+
+            
+        
+    
+            var circle_marker_a8c988e0450245c6ab8dc5dba9d543e6 = L.circleMarker(
+                [-22.98645236424169,-43.222890061199664],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_a0fdf14282e74591989910529a3d0057 = L.popup({maxWidth: '300'});
+
+            
+                var html_78154a406a994b76b27d4e0342d0e5eb = $('<div id="html_78154a406a994b76b27d4e0342d0e5eb" style="width: 100.0%; height: 100.0%;">Avenida Bartolomeu Mitre, Leblon Cluster 2</div>')[0];
+                popup_a0fdf14282e74591989910529a3d0057.setContent(html_78154a406a994b76b27d4e0342d0e5eb);
+            
+
+            circle_marker_a8c988e0450245c6ab8dc5dba9d543e6.bindPopup(popup_a0fdf14282e74591989910529a3d0057);
+
+            
+        
+    
+            var circle_marker_55ef2d1b47f542f686760fcf2099100c = L.circleMarker(
+                [-22.981458989088054,-43.222890061199664],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_d1e59a4e00354900b19a8e7552a20dd5 = L.popup({maxWidth: '300'});
+
+            
+                var html_5ea03b67485a4296a7ead9af71bb6b83 = $('<div id="html_5ea03b67485a4296a7ead9af71bb6b83" style="width: 100.0%; height: 100.0%;">Rua João Lira, Leblon Cluster 2</div>')[0];
+                popup_d1e59a4e00354900b19a8e7552a20dd5.setContent(html_5ea03b67485a4296a7ead9af71bb6b83);
+            
+
+            circle_marker_55ef2d1b47f542f686760fcf2099100c.bindPopup(popup_d1e59a4e00354900b19a8e7552a20dd5);
+
+            
+        
+    
+            var circle_marker_825cff26ace34b45b011e015602c71f1 = L.circleMarker(
+                [-22.976465427275564,-43.222890061199664],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_22aecf415adb4e3e805bedee3ad3e71d = L.popup({maxWidth: '300'});
+
+            
+                var html_4e974c45e3d84298a6393310083d7b8d = $('<div id="html_4e974c45e3d84298a6393310083d7b8d" style="width: 100.0%; height: 100.0%;">Praça Santos Dumont, Gávea Cluster 0</div>')[0];
+                popup_22aecf415adb4e3e805bedee3ad3e71d.setContent(html_4e974c45e3d84298a6393310083d7b8d);
+            
+
+            circle_marker_825cff26ace34b45b011e015602c71f1.bindPopup(popup_22aecf415adb4e3e805bedee3ad3e71d);
+
+            
+        
+    
+            var circle_marker_e36c591db6bc4a97a0dc4a1c5c14d869 = L.circleMarker(
+                [-22.97147167883538,-43.222890061199664],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_1f13892748a249319dc1b3f88b9f597d = L.popup({maxWidth: '300'});
+
+            
+                var html_b9bc4033b0f84a31a8c1830d060d2bf4 = $('<div id="html_b9bc4033b0f84a31a8c1830d060d2bf4" style="width: 100.0%; height: 100.0%;">Praça Santos Dumont, Gávea Cluster 0</div>')[0];
+                popup_1f13892748a249319dc1b3f88b9f597d.setContent(html_b9bc4033b0f84a31a8c1830d060d2bf4);
+            
+
+            circle_marker_e36c591db6bc4a97a0dc4a1c5c14d869.bindPopup(popup_1f13892748a249319dc1b3f88b9f597d);
+
+            
+        
+    
+            var circle_marker_3a1f337f07424ad9ab1b0eb6fc4f316f = L.circleMarker(
+                [-22.961483622196603,-43.222890061199664],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff964f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff964f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_5419506e45f64d90b46143841d3154a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_94be7081807d4b999306689b80bf848c = $('<div id="html_94be7081807d4b999306689b80bf848c" style="width: 100.0%; height: 100.0%;">Rua Peri, Jardim Botânico Cluster 5</div>')[0];
+                popup_5419506e45f64d90b46143841d3154a3.setContent(html_94be7081807d4b999306689b80bf848c);
+            
+
+            circle_marker_3a1f337f07424ad9ab1b0eb6fc4f316f.bindPopup(popup_5419506e45f64d90b46143841d3154a3);
+
+            
+        
+    
+            var circle_marker_4d7f88b11d2b46dd9835a5376c2f8c5b = L.circleMarker(
+                [-22.98645236424169,-43.2174969061041],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_0abde079737d430da974b138d24a64b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_66a4ce5da87b42189f0cfed7b63e0fd7 = $('<div id="html_66a4ce5da87b42189f0cfed7b63e0fd7" style="width: 100.0%; height: 100.0%;">Avenida Afrânio de Melo Franco, Leblon Cluster 2</div>')[0];
+                popup_0abde079737d430da974b138d24a64b5.setContent(html_66a4ce5da87b42189f0cfed7b63e0fd7);
+            
+
+            circle_marker_4d7f88b11d2b46dd9835a5376c2f8c5b.bindPopup(popup_0abde079737d430da974b138d24a64b5);
+
+            
+        
+    
+            var circle_marker_d5561a7d568b47c1ad18647c32047edd = L.circleMarker(
+                [-22.981458989088054,-43.2174969061041],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_047607e1a7244440aacd92992d26eafc = L.popup({maxWidth: '300'});
+
+            
+                var html_a8c12660994e41e0a35e8bbf4f5f075b = $('<div id="html_a8c12660994e41e0a35e8bbf4f5f075b" style="width: 100.0%; height: 100.0%;">Rua Humberto de Campos, Leblon Cluster 2</div>')[0];
+                popup_047607e1a7244440aacd92992d26eafc.setContent(html_a8c12660994e41e0a35e8bbf4f5f075b);
+            
+
+            circle_marker_d5561a7d568b47c1ad18647c32047edd.bindPopup(popup_047607e1a7244440aacd92992d26eafc);
+
+            
+        
+    
+            var circle_marker_b7dc35c5c01b49c59d33e22fa1000f46 = L.circleMarker(
+                [-22.97147167883538,-43.2174969061041],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_ed25424cf8fe4efba30a1d3867e3b4c0 = L.popup({maxWidth: '300'});
+
+            
+                var html_71632d5e9cfa4011958b154a321f701a = $('<div id="html_71632d5e9cfa4011958b154a321f701a" style="width: 100.0%; height: 100.0%;">Avenida Borges de Medeiros, Lagoa Cluster 2</div>')[0];
+                popup_ed25424cf8fe4efba30a1d3867e3b4c0.setContent(html_71632d5e9cfa4011958b154a321f701a);
+            
+
+            circle_marker_b7dc35c5c01b49c59d33e22fa1000f46.bindPopup(popup_ed25424cf8fe4efba30a1d3867e3b4c0);
+
+            
+        
+    
+            var circle_marker_0335780001ba45849078a1bedddb3975 = L.circleMarker(
+                [-22.966477743798674,-43.2174969061041],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_877b35a9313d4189814540da7b4bb02b = L.popup({maxWidth: '300'});
+
+            
+                var html_84bcdd502a784287a035860c953740f1 = $('<div id="html_84bcdd502a784287a035860c953740f1" style="width: 100.0%; height: 100.0%;">Avenida Lineu de Paula Machado, Lagoa Cluster 2</div>')[0];
+                popup_877b35a9313d4189814540da7b4bb02b.setContent(html_84bcdd502a784287a035860c953740f1);
+            
+
+            circle_marker_0335780001ba45849078a1bedddb3975.bindPopup(popup_877b35a9313d4189814540da7b4bb02b);
+
+            
+        
+    
+            var circle_marker_603e9520fd1841558256440f432017c9 = L.circleMarker(
+                [-22.961483622196603,-43.2174969061041],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_fd20d1a922e1405ea23fbcaa5d7e40e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_a65f7d257f0a444ca202b6d4998b010f = $('<div id="html_a65f7d257f0a444ca202b6d4998b010f" style="width: 100.0%; height: 100.0%;">Praça Pio XI, Jardim Botânico Cluster 2</div>')[0];
+                popup_fd20d1a922e1405ea23fbcaa5d7e40e3.setContent(html_a65f7d257f0a444ca202b6d4998b010f);
+            
+
+            circle_marker_603e9520fd1841558256440f432017c9.bindPopup(popup_fd20d1a922e1405ea23fbcaa5d7e40e3);
+
+            
+        
+    
+            var circle_marker_0b11150b07a746318736bd735968a535 = L.circleMarker(
+                [-22.981458989088054,-43.212103751008534],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_b369265ed3a04dbebe8d17a053ef792d = L.popup({maxWidth: '300'});
+
+            
+                var html_f8bd7b829f2241f387bbbd9aab401bf5 = $('<div id="html_f8bd7b829f2241f387bbbd9aab401bf5" style="width: 100.0%; height: 100.0%;">Rua Nascimento Silva, Ipanema Cluster 2</div>')[0];
+                popup_b369265ed3a04dbebe8d17a053ef792d.setContent(html_f8bd7b829f2241f387bbbd9aab401bf5);
+            
+
+            circle_marker_0b11150b07a746318736bd735968a535.bindPopup(popup_b369265ed3a04dbebe8d17a053ef792d);
+
+            
+        
+    
+            var circle_marker_496a3ce649a040bbad15564c06b60ae6 = L.circleMarker(
+                [-22.961483622196603,-43.212103751008534],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_e3a5df67542d482aadac0ef6c1a2c9b8 = L.popup({maxWidth: '300'});
+
+            
+                var html_b1ee795e7f704d5693da36875fee22fd = $('<div id="html_b1ee795e7f704d5693da36875fee22fd" style="width: 100.0%; height: 100.0%;">Avenida Lineu de Paula Machado, Lagoa Cluster 2</div>')[0];
+                popup_e3a5df67542d482aadac0ef6c1a2c9b8.setContent(html_b1ee795e7f704d5693da36875fee22fd);
+            
+
+            circle_marker_496a3ce649a040bbad15564c06b60ae6.bindPopup(popup_e3a5df67542d482aadac0ef6c1a2c9b8);
+
+            
+        
+    
+            var circle_marker_6aed3328d4b64ddca1e2666fbc4b5056 = L.circleMarker(
+                [-22.98645236424169,-43.20671059591297],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_1b67df6fa4874f30b5255de86c5ae29a = L.popup({maxWidth: '300'});
+
+            
+                var html_045036cd378047f2bea61ea96b19661f = $('<div id="html_045036cd378047f2bea61ea96b19661f" style="width: 100.0%; height: 100.0%;">Avenida Vieira Souto, Ipanema Cluster 2</div>')[0];
+                popup_1b67df6fa4874f30b5255de86c5ae29a.setContent(html_045036cd378047f2bea61ea96b19661f);
+            
+
+            circle_marker_6aed3328d4b64ddca1e2666fbc4b5056.bindPopup(popup_1b67df6fa4874f30b5255de86c5ae29a);
+
+            
+        
+    
+            var circle_marker_40eda4774ad54084a9f11cf5699c33e2 = L.circleMarker(
+                [-22.981458989088054,-43.20671059591297],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_6c81a2ccce74486397cc13d63bcaa4c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_9e831fd90efb4e67ab86399e80422a15 = $('<div id="html_9e831fd90efb4e67ab86399e80422a15" style="width: 100.0%; height: 100.0%;">Rua Barão de Jaguaripe, Ipanema Cluster 2</div>')[0];
+                popup_6c81a2ccce74486397cc13d63bcaa4c5.setContent(html_9e831fd90efb4e67ab86399e80422a15);
+            
+
+            circle_marker_40eda4774ad54084a9f11cf5699c33e2.bindPopup(popup_6c81a2ccce74486397cc13d63bcaa4c5);
+
+            
+        
+    
+            var circle_marker_ce5f4a1af2654823975063151e916407 = L.circleMarker(
+                [-22.976465427275564,-43.20671059591297],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_2e5bbbbeca3d4ec2b965103464881503 = L.popup({maxWidth: '300'});
+
+            
+                var html_cb6e5165a0c848a8983be7a4c64ac7b8 = $('<div id="html_cb6e5165a0c848a8983be7a4c64ac7b8" style="width: 100.0%; height: 100.0%;">Ciclovia da Lagoa Rodrigo de Freitas, Lagoa Cluster 2</div>')[0];
+                popup_2e5bbbbeca3d4ec2b965103464881503.setContent(html_cb6e5165a0c848a8983be7a4c64ac7b8);
+            
+
+            circle_marker_ce5f4a1af2654823975063151e916407.bindPopup(popup_2e5bbbbeca3d4ec2b965103464881503);
+
+            
+        
+    
+            var circle_marker_77c15257435e42909e33627a63a5f110 = L.circleMarker(
+                [-22.97147167883538,-43.20671059591297],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_0b1eee6f14064f11a19cdc3d03e88729 = L.popup({maxWidth: '300'});
+
+            
+                var html_eb926b598e5b4755bc8d167aab206103 = $('<div id="html_eb926b598e5b4755bc8d167aab206103" style="width: 100.0%; height: 100.0%;">Rua Tabatingüera, Lagoa Cluster 2</div>')[0];
+                popup_0b1eee6f14064f11a19cdc3d03e88729.setContent(html_eb926b598e5b4755bc8d167aab206103);
+            
+
+            circle_marker_77c15257435e42909e33627a63a5f110.bindPopup(popup_0b1eee6f14064f11a19cdc3d03e88729);
+
+            
+        
+    
+            var circle_marker_66c618bb2ea440bcbaa6729c5d47c358 = L.circleMarker(
+                [-22.961483622196603,-43.20671059591297],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_175a9a9bc36e40ffa816812498ba9dce = L.popup({maxWidth: '300'});
+
+            
+                var html_21a8ae98af41458095eb5f2594b6fac1 = $('<div id="html_21a8ae98af41458095eb5f2594b6fac1" style="width: 100.0%; height: 100.0%;">Rua Frei Leandro, Lagoa Cluster 2</div>')[0];
+                popup_175a9a9bc36e40ffa816812498ba9dce.setContent(html_21a8ae98af41458095eb5f2594b6fac1);
+            
+
+            circle_marker_66c618bb2ea440bcbaa6729c5d47c358.bindPopup(popup_175a9a9bc36e40ffa816812498ba9dce);
+
+            
+        
+    
+            var circle_marker_67cf6ba110ea4a719400c19b5aae6612 = L.circleMarker(
+                [-22.98645236424169,-43.201317440817405],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_18888b92f2a54cb1b6e532121385d6b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_fe99289a70a54b62be63b105cfd4c9f5 = $('<div id="html_fe99289a70a54b62be63b105cfd4c9f5" style="width: 100.0%; height: 100.0%;">Avenida Vieira Souto, Ipanema Cluster 2</div>')[0];
+                popup_18888b92f2a54cb1b6e532121385d6b2.setContent(html_fe99289a70a54b62be63b105cfd4c9f5);
+            
+
+            circle_marker_67cf6ba110ea4a719400c19b5aae6612.bindPopup(popup_18888b92f2a54cb1b6e532121385d6b2);
+
+            
+        
+    
+            var circle_marker_a79fc5074fb44fe4b4c1cbd474510888 = L.circleMarker(
+                [-22.981458989088054,-43.201317440817405],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_7b7939cfd21746a1a1639a4b78d475b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_4f42ecf00ccf43d4a160f87051368395 = $('<div id="html_4f42ecf00ccf43d4a160f87051368395" style="width: 100.0%; height: 100.0%;">Rua Alberto de Campos, Ipanema Cluster 0</div>')[0];
+                popup_7b7939cfd21746a1a1639a4b78d475b6.setContent(html_4f42ecf00ccf43d4a160f87051368395);
+            
+
+            circle_marker_a79fc5074fb44fe4b4c1cbd474510888.bindPopup(popup_7b7939cfd21746a1a1639a4b78d475b6);
+
+            
+        
+    
+            var circle_marker_021e8ed0f7ca4f3495d04620045affe8 = L.circleMarker(
+                [-22.976465427275564,-43.201317440817405],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_150014f6b816414d8994a5af81a1dd8c = L.popup({maxWidth: '300'});
+
+            
+                var html_8b4428e1d1dd44f7a2b42ffbb4292a86 = $('<div id="html_8b4428e1d1dd44f7a2b42ffbb4292a86" style="width: 100.0%; height: 100.0%;">Ciclovia da Lagoa Rodrigo de Freitas, Lagoa Cluster 2</div>')[0];
+                popup_150014f6b816414d8994a5af81a1dd8c.setContent(html_8b4428e1d1dd44f7a2b42ffbb4292a86);
+            
+
+            circle_marker_021e8ed0f7ca4f3495d04620045affe8.bindPopup(popup_150014f6b816414d8994a5af81a1dd8c);
+
+            
+        
+    
+            var circle_marker_f93b14eb3feb48ccaea050a5570387ca = L.circleMarker(
+                [-22.966477743798674,-43.201317440817405],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_309a421297064995a2f79db45db0ef76 = L.popup({maxWidth: '300'});
+
+            
+                var html_59756b53d1ee41a8a19f71eebdb53ebe = $('<div id="html_59756b53d1ee41a8a19f71eebdb53ebe" style="width: 100.0%; height: 100.0%;">Rua Almirante Guillobei, Lagoa Cluster 2</div>')[0];
+                popup_309a421297064995a2f79db45db0ef76.setContent(html_59756b53d1ee41a8a19f71eebdb53ebe);
+            
+
+            circle_marker_f93b14eb3feb48ccaea050a5570387ca.bindPopup(popup_309a421297064995a2f79db45db0ef76);
+
+            
+        
+    
+            var circle_marker_c37a73141f7e4b0b9819e0a337407a7b = L.circleMarker(
+                [-22.961483622196603,-43.201317440817405],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_61125eb0373f4bd6b418f2fa55c31e7c = L.popup({maxWidth: '300'});
+
+            
+                var html_423ff2e04fb14cc4991f6585baf220dc = $('<div id="html_423ff2e04fb14cc4991f6585baf220dc" style="width: 100.0%; height: 100.0%;">Rua Bogari, Lagoa Cluster 2</div>')[0];
+                popup_61125eb0373f4bd6b418f2fa55c31e7c.setContent(html_423ff2e04fb14cc4991f6585baf220dc);
+            
+
+            circle_marker_c37a73141f7e4b0b9819e0a337407a7b.bindPopup(popup_61125eb0373f4bd6b418f2fa55c31e7c);
+
+            
+        
+    
+            var circle_marker_0876af53450a42e7a3c373594883faab = L.circleMarker(
+                [-22.95648931406033,-43.201317440817405],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_30ce3f2a8c1c4a5cb3a9802b78edcb37 = L.popup({maxWidth: '300'});
+
+            
+                var html_f558025df9bf4e0c802dcbcd8ce4f88f = $('<div id="html_f558025df9bf4e0c802dcbcd8ce4f88f" style="width: 100.0%; height: 100.0%;">Rua Maria Eugênia, Humaitá Cluster 2</div>')[0];
+                popup_30ce3f2a8c1c4a5cb3a9802b78edcb37.setContent(html_f558025df9bf4e0c802dcbcd8ce4f88f);
+            
+
+            circle_marker_0876af53450a42e7a3c373594883faab.bindPopup(popup_30ce3f2a8c1c4a5cb3a9802b78edcb37);
+
+            
+        
+    
+            var circle_marker_f740dc49a5e644319a9b0c47554d0359 = L.circleMarker(
+                [-22.95149481942106,-43.201317440817405],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#b2f396",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#b2f396",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_e1555214c19f438ca73797c880609770 = L.popup({maxWidth: '300'});
+
+            
+                var html_95fbf68efb2241f38b9be4fe2fc65d62 = $('<div id="html_95fbf68efb2241f38b9be4fe2fc65d62" style="width: 100.0%; height: 100.0%;">Rua Icatu, Humaitá Cluster 4</div>')[0];
+                popup_e1555214c19f438ca73797c880609770.setContent(html_95fbf68efb2241f38b9be4fe2fc65d62);
+            
+
+            circle_marker_f740dc49a5e644319a9b0c47554d0359.bindPopup(popup_e1555214c19f438ca73797c880609770);
+
+            
+        
+    
+            var circle_marker_56b2180e327f4c4cb8028b4075babbf7 = L.circleMarker(
+                [-22.98645236424169,-43.195924285721844],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_895bcd5a3d11475f9b494ee37f9e6e17 = L.popup({maxWidth: '300'});
+
+            
+                var html_405399293d3c481481ac851d6a6f3aef = $('<div id="html_405399293d3c481481ac851d6a6f3aef" style="width: 100.0%; height: 100.0%;">Avenida Rainha Elizabeth da Bélgica, Ipanema Cluster 2</div>')[0];
+                popup_895bcd5a3d11475f9b494ee37f9e6e17.setContent(html_405399293d3c481481ac851d6a6f3aef);
+            
+
+            circle_marker_56b2180e327f4c4cb8028b4075babbf7.bindPopup(popup_895bcd5a3d11475f9b494ee37f9e6e17);
+
+            
+        
+    
+            var circle_marker_2203c8317da145129e4c34d391a38ae5 = L.circleMarker(
+                [-22.981458989088054,-43.195924285721844],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_88d687812258453090e32cd30af8b3b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_fd7ebbb85a0c4bddad27e7a1ee46b0a7 = $('<div id="html_fd7ebbb85a0c4bddad27e7a1ee46b0a7" style="width: 100.0%; height: 100.0%;">Rua Saint Roman, Copacabana Cluster 0</div>')[0];
+                popup_88d687812258453090e32cd30af8b3b3.setContent(html_fd7ebbb85a0c4bddad27e7a1ee46b0a7);
+            
+
+            circle_marker_2203c8317da145129e4c34d391a38ae5.bindPopup(popup_88d687812258453090e32cd30af8b3b3);
+
+            
+        
+    
+            var circle_marker_71fd08f075414e12bd743b5aeca067dd = L.circleMarker(
+                [-22.976465427275564,-43.195924285721844],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_c9a16d7fd0bd4458846b98712fa80e5a = L.popup({maxWidth: '300'});
+
+            
+                var html_87c3622a77134cc8a1156479fec95013 = $('<div id="html_87c3622a77134cc8a1156479fec95013" style="width: 100.0%; height: 100.0%;">Avenida Henrique Dodsworth, Copacabana Cluster 2</div>')[0];
+                popup_c9a16d7fd0bd4458846b98712fa80e5a.setContent(html_87c3622a77134cc8a1156479fec95013);
+            
+
+            circle_marker_71fd08f075414e12bd743b5aeca067dd.bindPopup(popup_c9a16d7fd0bd4458846b98712fa80e5a);
+
+            
+        
+    
+            var circle_marker_8ae338f028f64f6c816e6671fa01b4fc = L.circleMarker(
+                [-22.966477743798674,-43.195924285721844],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_6802101215af4a8cb04693cc900f1e1d = L.popup({maxWidth: '300'});
+
+            
+                var html_f0f682b38c2c44d7b0170ccdf211c4dc = $('<div id="html_f0f682b38c2c44d7b0170ccdf211c4dc" style="width: 100.0%; height: 100.0%;">Trilha de acesso ao Morro dos Cabritos, Lagoa Cluster 2</div>')[0];
+                popup_6802101215af4a8cb04693cc900f1e1d.setContent(html_f0f682b38c2c44d7b0170ccdf211c4dc);
+            
+
+            circle_marker_8ae338f028f64f6c816e6671fa01b4fc.bindPopup(popup_6802101215af4a8cb04693cc900f1e1d);
+
+            
+        
+    
+            var circle_marker_39c48d22bdc64e54aa4f511263420bfe = L.circleMarker(
+                [-22.95648931406033,-43.195924285721844],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_25fc1bc7e51e476b8568e1ab8cf0a1d4 = L.popup({maxWidth: '300'});
+
+            
+                var html_f23d0ed0b6054547a0de5eeb94e74cfd = $('<div id="html_f23d0ed0b6054547a0de5eeb94e74cfd" style="width: 100.0%; height: 100.0%;">Rua Capitão Salomão, Humaitá Cluster 0</div>')[0];
+                popup_25fc1bc7e51e476b8568e1ab8cf0a1d4.setContent(html_f23d0ed0b6054547a0de5eeb94e74cfd);
+            
+
+            circle_marker_39c48d22bdc64e54aa4f511263420bfe.bindPopup(popup_25fc1bc7e51e476b8568e1ab8cf0a1d4);
+
+            
+        
+    
+            var circle_marker_c92357a91ae8419e8f67c0a0ac64fa6a = L.circleMarker(
+                [-22.95149481942106,-43.195924285721844],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_61faa98e38dd4db78d4bc3ebe6265ae3 = L.popup({maxWidth: '300'});
+
+            
+                var html_39cee5cf37d64a41a9193fc99d72040f = $('<div id="html_39cee5cf37d64a41a9193fc99d72040f" style="width: 100.0%; height: 100.0%;">Rua São Clemente, Humaitá Cluster 2</div>')[0];
+                popup_61faa98e38dd4db78d4bc3ebe6265ae3.setContent(html_39cee5cf37d64a41a9193fc99d72040f);
+            
+
+            circle_marker_c92357a91ae8419e8f67c0a0ac64fa6a.bindPopup(popup_61faa98e38dd4db78d4bc3ebe6265ae3);
+
+            
+        
+    
+            var circle_marker_fc017e89c4bd4afba5eae87c8d79247d = L.circleMarker(
+                [-22.98645236424169,-43.19053113062628],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_6817a598cf05483f907419fce6d5b585 = L.popup({maxWidth: '300'});
+
+            
+                var html_879f5a998aab432a90e7699c6405628e = $('<div id="html_879f5a998aab432a90e7699c6405628e" style="width: 100.0%; height: 100.0%;">Rua Francisco Otaviano, Copacabana Cluster 2</div>')[0];
+                popup_6817a598cf05483f907419fce6d5b585.setContent(html_879f5a998aab432a90e7699c6405628e);
+            
+
+            circle_marker_fc017e89c4bd4afba5eae87c8d79247d.bindPopup(popup_6817a598cf05483f907419fce6d5b585);
+
+            
+        
+    
+            var circle_marker_46db6d2b390645a395b5d6880a8e74d8 = L.circleMarker(
+                [-22.981458989088054,-43.19053113062628],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_fbfc2d4d5f9a407ea5ec0034e4ad1b2c = L.popup({maxWidth: '300'});
+
+            
+                var html_3c093d79ccba45bf8b16a0b39496d204 = $('<div id="html_3c093d79ccba45bf8b16a0b39496d204" style="width: 100.0%; height: 100.0%;">Rua Sousa Lima, Copacabana Cluster 2</div>')[0];
+                popup_fbfc2d4d5f9a407ea5ec0034e4ad1b2c.setContent(html_3c093d79ccba45bf8b16a0b39496d204);
+            
+
+            circle_marker_46db6d2b390645a395b5d6880a8e74d8.bindPopup(popup_fbfc2d4d5f9a407ea5ec0034e4ad1b2c);
+
+            
+        
+    
+            var circle_marker_c9faa29303b649b0a4cc4a7d31e561b6 = L.circleMarker(
+                [-22.976465427275564,-43.19053113062628],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_30a36cc5689d4f71b93a7ae05f22da46 = L.popup({maxWidth: '300'});
+
+            
+                var html_31fcd36ce3a048edae6bc978652941fa = $('<div id="html_31fcd36ce3a048edae6bc978652941fa" style="width: 100.0%; height: 100.0%;">Avenida Nossa Senhora de Copacabana, Copacabana Cluster 2</div>')[0];
+                popup_30a36cc5689d4f71b93a7ae05f22da46.setContent(html_31fcd36ce3a048edae6bc978652941fa);
+            
+
+            circle_marker_c9faa29303b649b0a4cc4a7d31e561b6.bindPopup(popup_30a36cc5689d4f71b93a7ae05f22da46);
+
+            
+        
+    
+            var circle_marker_8f89ec202ce54bc4818eb4b8a081736d = L.circleMarker(
+                [-22.97147167883538,-43.19053113062628],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_db37e731a142442da2e06cf3957eb4f1 = L.popup({maxWidth: '300'});
+
+            
+                var html_e1c47693d843466b9bf21158492d5979 = $('<div id="html_e1c47693d843466b9bf21158492d5979" style="width: 100.0%; height: 100.0%;">Rua 5 de Julho, Copacabana Cluster 2</div>')[0];
+                popup_db37e731a142442da2e06cf3957eb4f1.setContent(html_e1c47693d843466b9bf21158492d5979);
+            
+
+            circle_marker_8f89ec202ce54bc4818eb4b8a081736d.bindPopup(popup_db37e731a142442da2e06cf3957eb4f1);
+
+            
+        
+    
+            var circle_marker_a6091a39239043e7ae1d0dbf1ff0fe59 = L.circleMarker(
+                [-22.966477743798674,-43.19053113062628],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_802fef80a58d4c18b17209334f0d88aa = L.popup({maxWidth: '300'});
+
+            
+                var html_dc66d111f3a24dfda6fd23c3885c1b60 = $('<div id="html_dc66d111f3a24dfda6fd23c3885c1b60" style="width: 100.0%; height: 100.0%;">Rua Tenente Marones de Gusmão, Copacabana Cluster 2</div>')[0];
+                popup_802fef80a58d4c18b17209334f0d88aa.setContent(html_dc66d111f3a24dfda6fd23c3885c1b60);
+            
+
+            circle_marker_a6091a39239043e7ae1d0dbf1ff0fe59.bindPopup(popup_802fef80a58d4c18b17209334f0d88aa);
+
+            
+        
+    
+            var circle_marker_46cbbf9e78524ab3854aa2d4096c063c = L.circleMarker(
+                [-22.961483622196603,-43.19053113062628],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_5ed0567a4f574cd5a630d6e2bc8553a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_97876d384a9a4333b09ad3c464cc0736 = $('<div id="html_97876d384a9a4333b09ad3c464cc0736" style="width: 100.0%; height: 100.0%;">Rua Real Grandeza, Botafogo Cluster 2</div>')[0];
+                popup_5ed0567a4f574cd5a630d6e2bc8553a3.setContent(html_97876d384a9a4333b09ad3c464cc0736);
+            
+
+            circle_marker_46cbbf9e78524ab3854aa2d4096c063c.bindPopup(popup_5ed0567a4f574cd5a630d6e2bc8553a3);
+
+            
+        
+    
+            var circle_marker_49bbc4a75e8a49d68b61a598d56fb473 = L.circleMarker(
+                [-22.95648931406033,-43.19053113062628],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_389f90e7edbc4f5ebcbd551a26c03f72 = L.popup({maxWidth: '300'});
+
+            
+                var html_d759e86070164f6a8070b59195e10d70 = $('<div id="html_d759e86070164f6a8070b59195e10d70" style="width: 100.0%; height: 100.0%;">Rua Mena Barreto, Botafogo Cluster 0</div>')[0];
+                popup_389f90e7edbc4f5ebcbd551a26c03f72.setContent(html_d759e86070164f6a8070b59195e10d70);
+            
+
+            circle_marker_49bbc4a75e8a49d68b61a598d56fb473.bindPopup(popup_389f90e7edbc4f5ebcbd551a26c03f72);
+
+            
+        
+    
+            var circle_marker_42a09e23d86a47da9b841eea2b9c53ed = L.circleMarker(
+                [-22.95149481942106,-43.19053113062628],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_58d981f46101445a8d545994f9e14d12 = L.popup({maxWidth: '300'});
+
+            
+                var html_ea0e1d284d26425c85dc21164ee4e9cb = $('<div id="html_ea0e1d284d26425c85dc21164ee4e9cb" style="width: 100.0%; height: 100.0%;">Rua Sorocaba, Botafogo Cluster 2</div>')[0];
+                popup_58d981f46101445a8d545994f9e14d12.setContent(html_ea0e1d284d26425c85dc21164ee4e9cb);
+            
+
+            circle_marker_42a09e23d86a47da9b841eea2b9c53ed.bindPopup(popup_58d981f46101445a8d545994f9e14d12);
+
+            
+        
+    
+            var circle_marker_15c27884335d4c94ae579c5376f9b490 = L.circleMarker(
+                [-22.98645236424169,-43.185137975530715],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_0f5f062f833f460fbb0c2109d612ad45 = L.popup({maxWidth: '300'});
+
+            
+                var html_44844c393bde4a17a92196f83a4fb374 = $('<div id="html_44844c393bde4a17a92196f83a4fb374" style="width: 100.0%; height: 100.0%;">Rua Francisco Otaviano, Ipanema Cluster 2</div>')[0];
+                popup_0f5f062f833f460fbb0c2109d612ad45.setContent(html_44844c393bde4a17a92196f83a4fb374);
+            
+
+            circle_marker_15c27884335d4c94ae579c5376f9b490.bindPopup(popup_0f5f062f833f460fbb0c2109d612ad45);
+
+            
+        
+    
+            var circle_marker_85e95477e01c459b8abaeb6e2d41716e = L.circleMarker(
+                [-22.976465427275564,-43.185137975530715],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_0cdbac9ffb5f4c31bdbfaa881310b385 = L.popup({maxWidth: '300'});
+
+            
+                var html_84e07a8bf2fc45649cafda1ec6c1505e = $('<div id="html_84e07a8bf2fc45649cafda1ec6c1505e" style="width: 100.0%; height: 100.0%;">Calçadão de Copacabana, Copacabana Cluster 0</div>')[0];
+                popup_0cdbac9ffb5f4c31bdbfaa881310b385.setContent(html_84e07a8bf2fc45649cafda1ec6c1505e);
+            
+
+            circle_marker_85e95477e01c459b8abaeb6e2d41716e.bindPopup(popup_0cdbac9ffb5f4c31bdbfaa881310b385);
+
+            
+        
+    
+            var circle_marker_a3e3cae570dd407d91b55b0964441d1e = L.circleMarker(
+                [-22.97147167883538,-43.185137975530715],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_17dc97c368c345038f0fa3beb0940f99 = L.popup({maxWidth: '300'});
+
+            
+                var html_6f8b0043dd654ae7af835385ac9b8321 = $('<div id="html_6f8b0043dd654ae7af835385ac9b8321" style="width: 100.0%; height: 100.0%;">Rua Figueiredo de Magalhães, Copacabana Cluster 2</div>')[0];
+                popup_17dc97c368c345038f0fa3beb0940f99.setContent(html_6f8b0043dd654ae7af835385ac9b8321);
+            
+
+            circle_marker_a3e3cae570dd407d91b55b0964441d1e.bindPopup(popup_17dc97c368c345038f0fa3beb0940f99);
+
+            
+        
+    
+            var circle_marker_dd81c8a9d826467fafe418d7d2d0fc13 = L.circleMarker(
+                [-22.966477743798674,-43.185137975530715],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_cd5974905fc445deb8a2f815d120ba4d = L.popup({maxWidth: '300'});
+
+            
+                var html_db71ab208803484fb6df2da45e4ce7f3 = $('<div id="html_db71ab208803484fb6df2da45e4ce7f3" style="width: 100.0%; height: 100.0%;">Rua Tonelero, Copacabana Cluster 0</div>')[0];
+                popup_cd5974905fc445deb8a2f815d120ba4d.setContent(html_db71ab208803484fb6df2da45e4ce7f3);
+            
+
+            circle_marker_dd81c8a9d826467fafe418d7d2d0fc13.bindPopup(popup_cd5974905fc445deb8a2f815d120ba4d);
+
+            
+        
+    
+            var circle_marker_8e558b0e97374e2997b10378606c62cb = L.circleMarker(
+                [-22.95648931406033,-43.185137975530715],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_243db4c0b728419a9631893b69cf6aab = L.popup({maxWidth: '300'});
+
+            
+                var html_6eba7d1cf3334ba39b62f1729b9e1231 = $('<div id="html_6eba7d1cf3334ba39b62f1729b9e1231" style="width: 100.0%; height: 100.0%;">Rua Assis Bueno, Botafogo Cluster 0</div>')[0];
+                popup_243db4c0b728419a9631893b69cf6aab.setContent(html_6eba7d1cf3334ba39b62f1729b9e1231);
+            
+
+            circle_marker_8e558b0e97374e2997b10378606c62cb.bindPopup(popup_243db4c0b728419a9631893b69cf6aab);
+
+            
+        
+    
+            var circle_marker_7fb1f8da0990480d95016476c060a46b = L.circleMarker(
+                [-22.95149481942106,-43.185137975530715],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_9a96ca58aa734064b19eeb8c3e50a022 = L.popup({maxWidth: '300'});
+
+            
+                var html_3122e70053be4b41b990fba4b75416b4 = $('<div id="html_3122e70053be4b41b990fba4b75416b4" style="width: 100.0%; height: 100.0%;">Rua Voluntários da Pátria, Botafogo Cluster 2</div>')[0];
+                popup_9a96ca58aa734064b19eeb8c3e50a022.setContent(html_3122e70053be4b41b990fba4b75416b4);
+            
+
+            circle_marker_7fb1f8da0990480d95016476c060a46b.bindPopup(popup_9a96ca58aa734064b19eeb8c3e50a022);
+
+            
+        
+    
+            var circle_marker_850854fc47394d468877529a217cf3aa = L.circleMarker(
+                [-22.97147167883538,-43.179744820435154],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_6535db5ef8e94d51beeb2fdca618f7e0 = L.popup({maxWidth: '300'});
+
+            
+                var html_7dcffa8ad8a94bbaa70363329ba06b9c = $('<div id="html_7dcffa8ad8a94bbaa70363329ba06b9c" style="width: 100.0%; height: 100.0%;">Calçadão de Copacabana, Copacabana Cluster 0</div>')[0];
+                popup_6535db5ef8e94d51beeb2fdca618f7e0.setContent(html_7dcffa8ad8a94bbaa70363329ba06b9c);
+            
+
+            circle_marker_850854fc47394d468877529a217cf3aa.bindPopup(popup_6535db5ef8e94d51beeb2fdca618f7e0);
+
+            
+        
+    
+            var circle_marker_315a77fa7cad4d50a156ec2bfdf5e645 = L.circleMarker(
+                [-22.966477743798674,-43.179744820435154],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_0ab13b6b609144b8b6d8d7e5b0e13063 = L.popup({maxWidth: '300'});
+
+            
+                var html_5866dd5cd5be42af959094f8b02767c9 = $('<div id="html_5866dd5cd5be42af959094f8b02767c9" style="width: 100.0%; height: 100.0%;">Rua General Barbosa Lima, Copacabana Cluster 2</div>')[0];
+                popup_0ab13b6b609144b8b6d8d7e5b0e13063.setContent(html_5866dd5cd5be42af959094f8b02767c9);
+            
+
+            circle_marker_315a77fa7cad4d50a156ec2bfdf5e645.bindPopup(popup_0ab13b6b609144b8b6d8d7e5b0e13063);
+
+            
+        
+    
+            var circle_marker_c6c4e1357ffb42229c1ccf45d71e4c7b = L.circleMarker(
+                [-22.961483622196603,-43.179744820435154],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_96d91aa5890d4a68a062c267531ba545 = L.popup({maxWidth: '300'});
+
+            
+                var html_4a3ef23790e645cda8d3ada4198c940b = $('<div id="html_4a3ef23790e645cda8d3ada4198c940b" style="width: 100.0%; height: 100.0%;">Praça Almirante Julio de Noronha, Leme Cluster 2</div>')[0];
+                popup_96d91aa5890d4a68a062c267531ba545.setContent(html_4a3ef23790e645cda8d3ada4198c940b);
+            
+
+            circle_marker_c6c4e1357ffb42229c1ccf45d71e4c7b.bindPopup(popup_96d91aa5890d4a68a062c267531ba545);
+
+            
+        
+    
+            var circle_marker_c77869bc6b424b289b94c61a6441a7ed = L.circleMarker(
+                [-22.95648931406033,-43.179744820435154],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_63e0dd27614f46a481d0f072a85fca27 = L.popup({maxWidth: '300'});
+
+            
+                var html_577a78e6218249d296df86e066920384 = $('<div id="html_577a78e6218249d296df86e066920384" style="width: 100.0%; height: 100.0%;">Morada do Sol, Botafogo Cluster 2</div>')[0];
+                popup_63e0dd27614f46a481d0f072a85fca27.setContent(html_577a78e6218249d296df86e066920384);
+            
+
+            circle_marker_c77869bc6b424b289b94c61a6441a7ed.bindPopup(popup_63e0dd27614f46a481d0f072a85fca27);
+
+            
+        
+    
+            var circle_marker_e124e8a6a7b6496dbe820f57f4b51b2d = L.circleMarker(
+                [-22.95149481942106,-43.179744820435154],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_52d4a066186e48b4b3840a452f1cdf5f = L.popup({maxWidth: '300'});
+
+            
+                var html_1f38cc9744084917876d6d04ebee960e = $('<div id="html_1f38cc9744084917876d6d04ebee960e" style="width: 100.0%; height: 100.0%;">Túnel do Pasmado, Botafogo Cluster 2</div>')[0];
+                popup_52d4a066186e48b4b3840a452f1cdf5f.setContent(html_1f38cc9744084917876d6d04ebee960e);
+            
+
+            circle_marker_e124e8a6a7b6496dbe820f57f4b51b2d.bindPopup(popup_52d4a066186e48b4b3840a452f1cdf5f);
+
+            
+        
+    
+            var circle_marker_d674db4d812047bab3b100d54adca31d = L.circleMarker(
+                [-22.961483622196603,-43.174351665339586],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_fa637a0700c34f74bdec9276920072ff = L.popup({maxWidth: '300'});
+
+            
+                var html_fe74bf82eb9847c084c9ecdb35e73dd1 = $('<div id="html_fe74bf82eb9847c084c9ecdb35e73dd1" style="width: 100.0%; height: 100.0%;">Rua Roberto Dias Lopes, Copacabana Cluster 2</div>')[0];
+                popup_fa637a0700c34f74bdec9276920072ff.setContent(html_fe74bf82eb9847c084c9ecdb35e73dd1);
+            
+
+            circle_marker_d674db4d812047bab3b100d54adca31d.bindPopup(popup_fa637a0700c34f74bdec9276920072ff);
+
+            
+        
+    
+            var circle_marker_96a6998236354e8f8e8fac4ce9b09cf1 = L.circleMarker(
+                [-22.95648931406033,-43.174351665339586],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_61e39c39984f473cad19598de648897b = L.popup({maxWidth: '300'});
+
+            
+                var html_b9311eb778764a65a70ca94e467c0d4f = $('<div id="html_b9311eb778764a65a70ca94e467c0d4f" style="width: 100.0%; height: 100.0%;">Rua Marechal Ramon Castilla, Botafogo Cluster 2</div>')[0];
+                popup_61e39c39984f473cad19598de648897b.setContent(html_b9311eb778764a65a70ca94e467c0d4f);
+            
+
+            circle_marker_96a6998236354e8f8e8fac4ce9b09cf1.bindPopup(popup_61e39c39984f473cad19598de648897b);
+
+            
+        
+    
+            var circle_marker_408f4f38bb3b4b83a99b9a035b7c296f = L.circleMarker(
+                [-22.95149481942106,-43.174351665339586],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_1b7289f0a5fd46f4b619ae223b240b19 = L.popup({maxWidth: '300'});
+
+            
+                var html_428b754c3ab248dcbc818992b943492c = $('<div id="html_428b754c3ab248dcbc818992b943492c" style="width: 100.0%; height: 100.0%;">Avenida Pasteur, Urca Cluster 2</div>')[0];
+                popup_1b7289f0a5fd46f4b619ae223b240b19.setContent(html_428b754c3ab248dcbc818992b943492c);
+            
+
+            circle_marker_408f4f38bb3b4b83a99b9a035b7c296f.bindPopup(popup_1b7289f0a5fd46f4b619ae223b240b19);
+
+            
+        
+    
+            var circle_marker_978c8072d27d4f9baca95dc2b6f8bf52 = L.circleMarker(
+                [-22.961483622196603,-43.168958510244025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_807b22dd839146e28438788a4ef698f3 = L.popup({maxWidth: '300'});
+
+            
+                var html_d95a92da0e6a4cf9aef05a6266bed46e = $('<div id="html_d95a92da0e6a4cf9aef05a6266bed46e" style="width: 100.0%; height: 100.0%;">Ladeira Ary Barroso, Leme Cluster 2</div>')[0];
+                popup_807b22dd839146e28438788a4ef698f3.setContent(html_d95a92da0e6a4cf9aef05a6266bed46e);
+            
+
+            circle_marker_978c8072d27d4f9baca95dc2b6f8bf52.bindPopup(popup_807b22dd839146e28438788a4ef698f3);
+
+            
+        
+    
+            var circle_marker_38ae6d2263ca4fcbb7140a21fc44bd8a = L.circleMarker(
+                [-22.95648931406033,-43.168958510244025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_633e2f77ca1342099589f2d0f6ce4f72 = L.popup({maxWidth: '300'});
+
+            
+                var html_4dc6ec2698b24504b1983a98371df51b = $('<div id="html_4dc6ec2698b24504b1983a98371df51b" style="width: 100.0%; height: 100.0%;">Avenida Pasteur, Urca Cluster 2</div>')[0];
+                popup_633e2f77ca1342099589f2d0f6ce4f72.setContent(html_4dc6ec2698b24504b1983a98371df51b);
+            
+
+            circle_marker_38ae6d2263ca4fcbb7140a21fc44bd8a.bindPopup(popup_633e2f77ca1342099589f2d0f6ce4f72);
+
+            
+        
+    
+            var circle_marker_7fd72e0f831f489891a716bd04e18503 = L.circleMarker(
+                [-22.95149481942106,-43.168958510244025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_83ed200440f344d79e191a164cac036a);
+            
+    
+            var popup_ea800cc1924c452a87b925098dd901b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_46eea7403fa4432599f59650e03ca9bc = $('<div id="html_46eea7403fa4432599f59650e03ca9bc" style="width: 100.0%; height: 100.0%;">Avenida Portugal, Urca Cluster 2</div>')[0];
+                popup_ea800cc1924c452a87b925098dd901b6.setContent(html_46eea7403fa4432599f59650e03ca9bc);
+            
+
+            circle_marker_7fd72e0f831f489891a716bd04e18503.bindPopup(popup_ea800cc1924c452a87b925098dd901b6);
+
+            
+        
+</script>
