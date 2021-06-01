@@ -1,4 +1,4 @@
-<img src="img/Address Recommendation.png" />
+<img src="Address Recommendation.png" />
 
 
 
